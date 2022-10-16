@@ -19,7 +19,7 @@ export const Contact = (props) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_zxph165', 'template_br217mu', e.target, 'tny8gigPeMB8FHvMn')
+    emailjs.sendForm('', '', e.target,'')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
